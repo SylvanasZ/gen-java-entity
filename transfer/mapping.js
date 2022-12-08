@@ -13,15 +13,15 @@ const MYSQL_KEY_MAPPING = {
     'tinyint': INT,
     'mediumint': INT,
     'smallint': INT,
-    'bit':INT,
-    'bingint': LONG,
+    'bit': INT,
+    'bigint': LONG,
     'decimal': DOUBLE,
     'float': DOUBLE,
     'double': DOUBLE,
     // 时间相关
     'timestamp': DATE,
-    'date': STRING,
-    'datetime': STRING,
+    'date': DATE,
+    'datetime': DATE,
     'time': TIME,
     'year': STRING
 }
